@@ -1,0 +1,14 @@
+venv
+.env
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints
+MLOPS_PROJECT_2.egg-info
+dist/
+build/
+.idea/
+.vscode/
+logs/
+data/
+models/
