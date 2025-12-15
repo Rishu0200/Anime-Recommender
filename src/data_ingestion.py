@@ -3,8 +3,11 @@ import pandas as pd
 from google.cloud import storage
 from src.logger import get_logger
 from src.custom_exception import CustomException
-from config.paths_config import *
+from config_recommendation.paths_config import *
 from utils.common_functions import read_yaml
+from dotenv import load_dotenv
+
+load_dotenv()
 
 logger = get_logger(__name__)
 
@@ -41,9 +44,9 @@ class DataIngestion:
                     logger.info("Downloading Smaller Files ie anime and anime_with synopsis")
         
         except Exception as e:
-            logger.error("Error while downloading data from GCP")
-            raise CustomException("Failed to download data",e)
-        
+            logger.exception(f"Error while downloading data from GCP: {e}")
+            raise CustomException("Failed to download data", e)
+    
     def run(self):
         try:
             logger.info("Starting Data Ingestion Process....")
@@ -55,6 +58,10 @@ class DataIngestion:
             logger.info("Data Ingestion DONE...")
 
 
+
 if __name__=="__main__":
     data_ingestion = DataIngestion(read_yaml(CONFIG_PATH))
     data_ingestion.run()
+
+
+

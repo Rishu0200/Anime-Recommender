@@ -1,3 +1,4 @@
+README.md
 setup.py
 MLOPS_PROJECT_2.egg-info/PKG-INFO
 MLOPS_PROJECT_2.egg-info/SOURCES.txt
@@ -6,11 +7,14 @@ MLOPS_PROJECT_2.egg-info/requires.txt
 MLOPS_PROJECT_2.egg-info/top_level.txt
 artifacts/__init__.py
 config/__init__.py
+config/paths_config.py
 custom_jenkins/__init__.py
 pipeline/__init__.py
 src/__init__.py
 src/custom_exception.py
+src/data_ingestion.py
 src/logger.py
 static/__init__.py
 templates/__init__.py
 utils/__init__.py
+utils/common_functions.py
