@@ -1,5 +1,5 @@
 artifacts
-config
+config_recommendation
 custom_jenkins
 pipeline
 src

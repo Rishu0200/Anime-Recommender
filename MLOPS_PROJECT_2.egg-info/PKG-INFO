@@ -1,4 +1,4 @@
-Metadata-Version: 2.4
+Metadata-Version: 2.1
 Name: MLOPS-PROJECT-2
 Version: 0.1
 Author: Rishabh Anand
@@ -14,5 +14,3 @@ Requires-Dist: dvc-gs
 Requires-Dist: flask
 Requires-Dist: joblib
 Requires-Dist: python-dotenv
-Dynamic: author
-Dynamic: requires-dist
