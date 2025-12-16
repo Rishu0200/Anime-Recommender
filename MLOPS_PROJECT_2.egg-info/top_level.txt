@@ -1,8 +1,0 @@
-artifacts
-config_recommendation
-custom_jenkins
-pipeline
-src
-static
-templates
-utils
