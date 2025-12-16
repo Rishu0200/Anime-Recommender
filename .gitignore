@@ -4,7 +4,7 @@ __pycache__/
 *.pyc
 .DS_Store
 .ipynb_checkpoints
-MLOPS_PROJECT_2.egg-info
+MLOPS_PROJECT_2.egg-info/
 dist/
 build/
 .idea/
@@ -12,3 +12,9 @@ build/
 logs/
 data/
 models/
+artifacts/raw/
+artifacts/processed/
+artifacts/models/
+artifacts/model_checkpoints/
+artifacts/model/
+
