@@ -17,4 +17,6 @@ artifacts/processed/
 artifacts/models/
 artifacts/model_checkpoints/
 artifacts/model/
+artifacts/weights/
+
 
