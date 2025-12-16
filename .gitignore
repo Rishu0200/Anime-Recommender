@@ -14,9 +14,9 @@ data/
 models/
 artifacts/raw/
 artifacts/processed/
-artifacts/models/
-artifacts/model_checkpoints/
 artifacts/model/
+artifacts/model_checkpoint/
 artifacts/weights/
+
 
 
